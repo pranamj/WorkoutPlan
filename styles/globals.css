@@ -1,0 +1,43 @@
+/* styles/global.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5em;
+}
+
+input, button {
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+@media (max-width: 600px) {
+  form, ul {
+    padding: 1em;
+  }
+
+  li {
+    margin-bottom: 1em;
+  }
+
+  button {
+    width: 100%;
+  }
+}
